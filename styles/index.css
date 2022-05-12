@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Empieza Header */
+
+header {
+    background: rgb(35,37,38);
+    background: -moz-linear-gradient(90deg, rgba(35,37,38,1) 35%, rgba(65,67,69,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(35,37,38,1) 35%, rgba(65,67,69,1) 100%);
+    background: linear-gradient(90deg, rgba(35,37,38,1) 35%, rgba(65,67,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#232526",endColorstr="#414345",GradientType=1);
+    padding: 10px 50px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar ul {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    list-style-type: none;
+    height: 100px;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.navbar ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fafafa;
+    font-weight: bolder;
+}
+
+.navbar ul li a:hover {
+    color: #c72020;
+    text-decoration: underline solid #c72020;
+    transition-duration: 0.5s;
+}
+
+/* Termina Header */
+
+/* Emepieza container principal */
+
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/02/63/38/30/360_F_263383000_d4IhBBolO4ba7uGrWWzYJ4nffQzum2bF.jpg);
+    background-attachment: fixed;
+    color: #fafafa;
+}
+
+.container {
+    background: rgb(35,37,38);
+    background: -moz-linear-gradient(90deg, rgba(35,37,38,1) 35%, rgba(65,67,69,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(35,37,38,1) 35%, rgba(65,67,69,1) 100%);
+    background: linear-gradient(90deg, rgba(35,37,38,1) 35%, rgba(65,67,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#232526",endColorstr="#414345",GradientType=1);
+    border: 10px #232526 solid;
+    border-radius: 20px;
+    margin: 30px 10px;
+    display: flex;
+}
+
+.leftContainer {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.leftContainer h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px 0 0 0;
+    font-size: 30px;
+}
+
+.leftContainer p {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 20px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.boton {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fafafa;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    background-color: #232526;
+    border: 2px #fafafa solid;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #fafafa;
+    color: #232526;
+    font-weight: 700;
+    border: 2px #232526 solid;
+    box-shadow: 0px 0px 15px 7px #fafafa77;
+    transition-duration: 0.6s;
+}
+
+.rightContainer {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.rightContainer img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Termina container principal */
+
+/* Emepieza container secundario */
+
+article {
+    background: rgb(35,37,38);
+    background: -moz-linear-gradient(90deg, rgba(35,37,38,1) 35%, rgba(65,67,69,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(35,37,38,1) 35%, rgba(65,67,69,1) 100%);
+    background: linear-gradient(90deg, rgba(35,37,38,1) 35%, rgba(65,67,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#232526",endColorstr="#414345",GradientType=1);
+    border: 10px #232526 solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 30px 10px;
+}
+article p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 20px;
+
+}
+
+/* Termina container secundario */
